@@ -29,7 +29,7 @@ class WebCrawler:
             save_path = os.path.join(folder, timestamp)
 
             # Download the file
-            with requests.get(url, stream=True, proxies=None) as response:
+            with requests.get(url, stream=True, proxies=proxy) as response:
                 response.raise_for_status()
                 with open(save_path, 'wb') as file:
                     for chunk in response.iter_content(chunk_size=8192):
