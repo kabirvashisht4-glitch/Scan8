@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, Response
+from flask import Flask, render_template, request, redirect, url_for, Response, jsonify
 from datetime import datetime
 from werkzeug.utils import secure_filename
 import os
@@ -109,6 +109,9 @@ def upload_files():
         )
 
     return jsonify(success=True)
+
+class InvalidURLException(Exception):
+    pass
 
 def link():
     if request.method == 'POST':

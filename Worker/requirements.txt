@@ -4,3 +4,6 @@ pymongo==3.11.4
 python-dotenv==0.18.0
 redis==3.5.3
 rq==1.9.0
+requests==2.31.0
+beautifulsoup4==4.9.3
+hurry.filesize==0.9
