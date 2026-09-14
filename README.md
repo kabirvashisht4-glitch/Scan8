@@ -50,6 +50,4 @@ The application comes with a test suite to help users ensure correct installatio
 8. Run the test suite again using ```python3 app.py -v```.
 
 ## Demo videos
-* [Introduction](https://drive.google.com/file/d/16oXRxPhDIK1QnPnjoJig_SXpZj8Lj-mq/view?usp=sharing)
-* [Application Demo](https://drive.google.com/file/d/1TblQdpIAS4VybZzgb2ORfmJiXs_McVrO/view?usp=sharing)
 * [Testing Demo](https://drive.google.com/file/d/1CTvLrD_fSdq6xxXabgkLGOPs3jDLwPrT/view?usp=sharing)
